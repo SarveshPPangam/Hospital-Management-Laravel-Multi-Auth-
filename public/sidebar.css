@@ -1,0 +1,362 @@
+/*
+    DEMO STYLE
+*/
+
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+    height: 100%;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #999;
+}
+
+a,
+a:hover,
+a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.display-one{
+  display: flex;
+  flex-wrap: nowrap;
+}
+.navbar {
+    padding: 15px 10px;
+    background: #fff;
+    border: none;
+    border-radius: 0;
+}
+
+.navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #ddd;
+
+}
+
+i,
+span {
+    display: inline-block;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+.wrapper {
+    display: flex;
+    align-items: stretch;
+}
+
+#sidebar {
+    min-width: 30vh;
+    max-width: 15%;
+    min-height: 85vh;
+    max-height: 85vh;
+    background: rgba(0,0,0,0.1);
+    color: #fff;
+    transition: all 0.3s;
+    margin-bottom: 0 !important;
+}
+
+#sidebar.active {
+    min-width: 15vh;
+    max-width: 5%;
+    min-height: 85vh;
+    max-height: 85vh;
+    text-align: center;
+    
+}
+
+#sidebar.active .sidebar-header h3,
+#sidebar.active .CTAs {
+    display: none;
+}
+
+#sidebar.active .sidebar-header strong {
+    display: block;
+}
+
+#sidebar ul li a {
+    text-align: left;
+}
+
+#sidebar.active ul li a {
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 0.85em;
+}
+
+#sidebar.active ul li a i {
+    margin-right: 0;
+    display: block;
+    font-size: 1.8em;
+
+}
+
+#sidebar.active ul ul a {
+    padding: 10px !important;
+}
+
+#sidebar.active .dropdown-toggle::after {
+    top: auto;
+    bottom: 10px;
+    right: 50%;
+    -webkit-transform: translateX(50%);
+    -ms-transform: translateX(50%);
+    transform: translateX(50%);
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background-color: rgba(28,35,49,0.1);}
+
+#sidebar .sidebar-header strong {
+    display: none;
+    font-size: 1.8em;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    height: 100%;
+    margin-bottom: 0 !important;
+}
+.w-25x4px{
+    width: 100px;
+
+}
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+#sidebar ul li a:hover {
+    color: #7386D5;
+    background: #fff;
+    text-decoration: none;
+}
+
+#sidebar ul li a i {
+    margin-right: 10px;
+}
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+    color: #fff;
+    background:rgba(0,0,0,0.1);
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    /* position: absolute;
+    top: 50%;
+    right: 20px; */
+
+}
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background:rgba(0,0,0,0.1);
+}
+
+ul.CTAs {
+    padding: 20px;
+}
+
+ul.CTAs a {
+    text-align: center;
+    font-size: 0.9em !important;
+    display: block;
+
+}
+
+a.download {
+    background: #fff;
+    color: #7386D5;
+}
+
+a.article,
+a.article:hover {
+    background: #6d7fcc !important;
+    color: #fff !important;
+    text-decoration: none;
+}
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+
+#content {
+    width: 100%;
+    padding: 20px;
+    min-height: 100vh;
+    transition: all 0.3s;
+}
+hr {
+    margin: 0;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+}
+hr.back{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.1));
+}
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+
+/* Sidebar */
+    .dropdown-toggle::after {
+        /* top: auto;
+        bottom: 10px;
+        right: 50%; */
+        -webkit-transform: translateX(50%);
+        -ms-transform: translateX(50%);
+        transform: translateX(50%);
+    }
+    #sidebar.active {
+        margin-left: 0 !important;
+    }
+    #sidebar .sidebar-header h3,
+    #sidebar .CTAs {
+        display: none;
+    }
+    #sidebar .sidebar-header strong {
+        display: block;
+    }
+    #sidebar ul li a {
+        padding: 20px 10px;
+    }
+    #sidebar ul li a span {
+        font-size: 0.85em;
+    }
+    #sidebar ul li a i {
+        margin-right: 0;
+        display: block;
+    }
+    #sidebar ul ul a {
+        padding: 10px !important;
+    }
+    #sidebar ul li a i {
+        font-size: 1.3em;
+    }
+    #sidebar {
+        margin-left: 0;
+    }
+    /* #sidebarCollapse {
+        opacity: 1;
+        color:rgba(0,0,0,0.2)
+    }
+
+} */
+#sidebarCollapse {
+   width: 30px;
+   height: 30px;
+   background: rgba(0,0,0,0);
+}
+
+#sidebarCollapse span {
+   width: 13px;
+   height: 2px;
+   margin: 0 auto;
+   display: block;
+   background: #555;
+   transition: all 0.8s cubic-bezier(0.810, -0.330, 0.345, 1.375);
+
+}
+#sidebarCollapse span:first-of-type {
+    /* rotate first one */
+    transform: rotate(-30deg);
+    margin-bottom: 3.5px;
+}
+
+#sidebarCollapse span:last-of-type {
+    /* rotate third one */
+    transform: rotate(30deg);
+}
+
+#sidebarCollapse.active span:first-of-type {
+  transform: rotate(30deg);
+  margin-bottom: 3.5px;
+}
+#sidebarCollapse.active span:last-of-type {
+    transform: rotate(-30deg);
+}
+input[type=text].search {
+    width: 20%;
+    min-width: 235px;
+    height: 4vh;
+    text-align: center;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  /* When the input field gets focus, change its width to 100% */
+  input[type=text].search:focus {
+    width: 50%;
+    min-width: 235px;
+  }
+ input::placeholder{
+     font-size: small;
+ }
+ input:focus::placeholder{
+    opacity: 0;
+    transition: 0.5s;
+}
+  .form__field {
+    font-family: inherit;
+    border: 0;
+    border-bottom: 2px solid #9b9b9b;
+    outline: 0;
+    font-size: 1.3rem;
+    background:linear-gradient(to right, #11998e, #38ef7d);
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+  }
+  .form__field:focus {
+    padding-bottom: 6px;
+    border-width: 3px;
+    border-image: linear-gradient(to right, #11998e, #38ef7d);
+    border-image-slice: 1;
+  }
+.card{
+    min-width: 50%;
+}
+#addSpecialization .btn{
+    line-height: 1.3;
+}
+.form-specialization{
+    border: 0;
+    border-bottom: 2px solid #9b9b9b;
+    outline: 0;
+    font-size: 1rem;
+    background: #11998e;
+    background: transparent;
+    transition: border-color 0.2s;
+}
+.w-75x{
+    min-width: 50%;
+    margin: 2rem auto auto;
+}
