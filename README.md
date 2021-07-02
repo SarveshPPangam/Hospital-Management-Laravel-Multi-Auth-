@@ -1,4 +1,4 @@
-#Admin module:
+#Admin module:<br>
 Dashboard: In this section, admin can view the Patients, Doctors, Appointments and New queries.
 Doctors: In this section, admin can add doctor’s specialization and mange doctors (Add/Update).
 Users: In this section, admin can view users detail(who take online appointment) and also have right to delete irrelevant user.
