@@ -1,25 +1,25 @@
 #Admin module:<br>
-Dashboard: In this section, admin can view the Patients, Doctors, Appointments and New queries.
-Doctors: In this section, admin can add doctor’s specialization and mange doctors (Add/Update).
-Users: In this section, admin can view users detail(who take online appointment) and also have right to delete irrelevant user.
-Patients: In this section, admin can view patient’s details.
-Appointment History: In this section, admin can view appointment history.
-Patient Search: In this section, admin can search patient with the help of patient name and mobile number.
-Admin can also change his/her own password.
+Dashboard: In this section, admin can view the Patients, Doctors, Appointments and New queries.<br>
+Doctors: In this section, admin can add doctor’s specialization and mange doctors (Add/Update).<br>
+Users: In this section, admin can view users detail(who take online appointment) and also have right to delete irrelevant user.<br>
+Patients: In this section, admin can view patient’s details.<br>
+Appointment History: In this section, admin can view appointment history.<br>
+Patient Search: In this section, admin can search patient with the help of patient name and mobile number.<br>
+Admin can also change his/her own password.<br>
 
-#User module (patient):
-Dashboard: In this section, patients can view the his/her profile, Appointments and Book Appointment.
-Book Appointment: In this section, Patient can book his/her appointment.
-Appointment History: In this section, Patients can see his/her own appointment history.
-Medical History: In this section, Patients can see his/her own appointment history.
-User can update his/her profile, change the password and recover the password.
+#User module (patient):<br>
+Dashboard: In this section, patients can view the his/her profile, Appointments and Book Appointment.<br>
+Book Appointment: In this section, Patient can book his/her appointment.<br>
+Appointment History: In this section, Patients can see his/her own appointment history.<br>
+Medical History: In this section, Patients can see his/her own appointment history.<br>
+User can update his/her profile, change the password and recover the password.<br>
 
-#Doctor module:
-Dashboard: In this section, doctor can view his/her own profile and online appointments.
-Appointment History: In this section, Doctor can see patient’s appointment history.
-Patients: In this section, doctor can manage patients (Add/Update).
-Search: In this section, doctor can search patient with the help of patient name and mobile number.
-Doctor can also update his profile, change the password and recover the password.
+#Doctor module:<br>
+Dashboard: In this section, doctor can view his/her own profile and online appointments.<br>
+Appointment History: In this section, Doctor can see patient’s appointment history.<br>
+Patients: In this section, doctor can manage patients (Add/Update).<br>
+Search: In this section, doctor can search patient with the help of patient name and mobile number.<br>
+Doctor can also update his profile, change the password and recover the password.<br>
 
 
 
