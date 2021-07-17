@@ -1,4 +1,4 @@
-##Admin module:<br>
+## Admin module:<br>
 Dashboard: In this section, admin can view the Patients, Doctors, Appointments and New queries.<br>
 Doctors: In this section, admin can add doctor’s specialization and mange doctors (Add/Update).<br>
 Users: In this section, admin can view users detail(who take online appointment) and also have right to delete irrelevant user.<br>
@@ -7,14 +7,14 @@ Appointment History: In this section, admin can view appointment history.<br>
 Patient Search: In this section, admin can search patient with the help of patient name and mobile number.<br>
 Admin can also change his/her own password.<br>
 
-##User module (patient):<br>
+## User module (patient):<br>
 Dashboard: In this section, patients can view the his/her profile, Appointments and Book Appointment.<br>
 Book Appointment: In this section, Patient can book his/her appointment.<br>
 Appointment History: In this section, Patients can see his/her own appointment history.<br>
 Medical History: In this section, Patients can see his/her own appointment history.<br>
 User can update his/her profile, change the password and recover the password.<br>
 
-##Doctor module:<br>
+## Doctor module:<br>
 Dashboard: In this section, doctor can view his/her own profile and online appointments.<br>
 Appointment History: In this section, Doctor can see patient’s appointment history.<br>
 Patients: In this section, doctor can manage patients (Add/Update).<br>
